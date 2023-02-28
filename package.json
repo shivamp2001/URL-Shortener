@@ -1,0 +1,30 @@
+{
+  "name": "project4-url-shortner",
+  "version": "1.0.0",
+  "description": "URL shortening is used to create shorter aliases for long URLs. We call these shortened aliases “short links.” Users are redirected to the original URL when they hit these short links. Short links save a lot of space when displayed, printed, messaged, or tweeted. Additionally, users are less likely to mistype shorter URLs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yashrajsinh09/Project4-URL-Shortner.git"
+  },
+  "author": "Yashraj,Shivam,Rahul,Bhuvnesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yashrajsinh09/Project4-URL-Shortner/issues"
+  },
+  "homepage": "https://github.com/yashrajsinh09/Project4-URL-Shortner#readme",
+  "dependencies": {
+    "axios": "^1.2.1",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.0",
+    "nodemon": "^2.0.20",
+    "redis": "^3.1.2",
+    "shortid": "^2.2.16",
+    "util": "^0.12.5",
+    "valid-url": "^1.0.9"
+  }
+}
